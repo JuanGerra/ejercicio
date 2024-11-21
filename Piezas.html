@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piezas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="Piezas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+      <nav id="navbar-example2" class="navbar navbar-expand-lg bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Nitro Ruedas</a>
+        <!-- Botón de hamburguesa para colapsar el menú -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenido colapsable del menú -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto"> <!-- "ms-auto" para alinear a la derecha -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Salir de la pagina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modelos.html">Modelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="piezas.html">Piezas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cita.html">Cita</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Piezas/Bateria1.png" class="d-block w-100" alt="Bateria">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bateria</h5>
+              <p>La batería de una moto es un componente esencial...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Piezas/Cable.jpg" class="d-block w-100" alt="Cable De Conexion">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cable De Conexion</h5>
+              <p>Los cables de conexión en una moto son cruciales...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Piezas/Caballete.jpeg" class="d-block w-100" alt="Caballete de moto">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Caballete de moto</h5>
+              <p>Es el caballete más común en las motos...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Piezas/carburador.jpeg" class="d-block w-100" alt="Carburador">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Carburador</h5>
+              <p>El carburador es un componente crucial en los motores...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Piezas/Luces.jpg" class="d-block w-100" alt="Luces para tu moto">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Luces para tu moto</h5>
+              <p>Son las luces principales ubicadas en la parte delantera...</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+          <br>
+        <div class="forma">
+            <form class="forma2">
+                <h2>Formulario de pedido</h2>
+                <div class="formulario">
+                    <form class="pedido">
+                        <input type="text" placeholder="Nombre y apellidos">
+                        <br>
+                        <input type="email" placeholder="Correo electronico">
+                        <br>
+                        <input type="text" placeholder="pieza que requires">
+                        <br>
+                        <input type="number" placeholder="Numero de telefono">
+                    </form>
+                    <div class="politicas">
+                        <input type="checkbox"><a href="#">Politicas de privacidad</a>
+                        <input type="checkbox"><a href="#">Terminos y condiciones</a>
+                    </div>
+                    <input class="enviar" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+        <br>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_row">
+                    <div class="footer-link">
+                        <h4>Compañia</h4>
+                        <ul>
+                            <li><a href="#">Nuestros Servicios</a></li>
+                            <li><a href="#">Politica de provacidad</a></li>
+                            <li><a href="#">Afiliate</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link">
+                        <h4>Ayuda</h4>
+                        <ul>
+                            <li><a href="#">Preguntas</a></li>
+                            <li><a href="#">Envios</a></li>
+                            <li><a href="#">Pagos</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-link">
+                        <h4>Siguenos</h4>
+                        <div>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="https://youtu.be/d8ekz_CSBVg?si=UMkMDu_iX8-_szJV"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="Logofoo">
+                            <img src="IMAGENES PROYECT/Logo.png" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </header>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</body>
+</html>

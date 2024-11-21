@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2 class="titulo">Inicio de Sesión</h2>
+    <form action="login.php" method="POST">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" required><br><br>
+
+        <label for="Contraseña">Contraseña:</label>
+        <input type="password" id="Contraseña" name="Contraseña" required><br><br>
+
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+
+    <h2 class="titulo">Registrarse</h2>
+    <form action="registrer.php" method="POST">
+        <input type="text" name="Nombre" placeholder="Nombre" required>
+        <input type="text" name="Apellido" placeholder="Apellido" required>
+        <input type="text" name="Telefono" placeholder="Telefono" required>
+        <input type="email" name="Correo" placeholder="Correo" required>
+        <input type="password" name="Contraseña" placeholder="Contraseña" required>
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>

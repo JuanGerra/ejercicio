@@ -1,0 +1,100 @@
+/* General styling for centering items */
+body {
+    background-image: url(Fondo2.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Styling for forms container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.titulo{
+    color: white;
+}
+
+/* Specific background for Inicio de Sesión */
+form[action="login.php"] {
+    background-color: aqua;
+}
+
+/* Specific background for Registro */
+form[action="Conexion.php"] {
+    background-color: #87f3f3;
+}
+
+/* Styling for labels and inputs */
+label, input {
+    font-size: 16px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Styling for buttons */
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for titles */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    label, input, button {
+        font-size: 14px;
+    }
+}
